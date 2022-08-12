@@ -10,6 +10,6 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=dev-portal-ui'
 spec:
-  type: website
+  type: service
   lifecycle: experimental
   owner: default-team
