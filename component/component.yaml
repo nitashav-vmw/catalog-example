@@ -13,5 +13,3 @@ spec:
   type: website
   lifecycle: experimental
   owner: default-team
-  dependsOn:
-    - component:tap-dev/platform-service
