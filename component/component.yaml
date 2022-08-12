@@ -1,1 +1,15 @@
-catalog
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dev-portal-ui
+  description: Dev Studio UI
+  tags:
+    - nodejs
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=dev-portal-ui'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
