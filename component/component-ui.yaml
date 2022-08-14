@@ -13,4 +13,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: default-team
+  system: developer-studio
+  dependsOn: [Component:platform-service]
   
