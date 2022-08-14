@@ -14,4 +14,5 @@ spec:
   lifecycle: experimental
   owner: default-team
   system: developer-studio
+  dependsOn: [Component:tenant-carat-api-services]
   
