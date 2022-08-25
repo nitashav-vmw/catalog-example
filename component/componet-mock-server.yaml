@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: tenant-generic-mock-server
-  description: Dev Studio service layer
+  description: Mock Server
   tags:
-    - prism
+    - prisma
     - web
     - tanzu
   annotations:
